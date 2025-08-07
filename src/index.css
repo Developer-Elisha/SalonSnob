@@ -18,6 +18,11 @@ body {
 }
 
 @font-face {
+  font-family: 'LibertinusSerif-Regular';
+  src: url('/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
   font-family: 'circular-web';
   src: url('/fonts/circularweb-book.woff2') format('woff2');
 }
@@ -49,4 +54,8 @@ body {
 
 .font-Liberty-Regular {
   font-family: 'LibertinusSerif-Regular', sans-serif;
+}
+
+.font-WorkSans-Italic {
+  font-family: 'WorkSans-Italic-VariableFont_wght', sans-serif;
 }

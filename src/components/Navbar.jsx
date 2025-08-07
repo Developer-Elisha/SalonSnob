@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#CAA986] opacity-60 px-6 py-4">
+    <nav className="bg-gradient-to-br from-[#CAA986] to-[#94724e] opacity-80 px-6 py-4">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <a href="#hairsalon" className="flex items-center gap-2">
